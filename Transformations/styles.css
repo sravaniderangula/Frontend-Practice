@@ -1,0 +1,84 @@
+/* Basic body styling */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container box */
+.parent {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+/* Box 1 */
+.box1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    transform: rotate(45deg);
+}
+
+/* Box 2 */
+.box2 {
+    position: absolute;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    top: 110px;
+    background-color: palevioletred;
+}
+
+/* Box 3 */
+.box3 {
+    position: absolute;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    top: 110px;
+    background-color: blue;
+    transform: rotate(27deg);
+}
+
+/* Box 4 */
+.box4 {
+    position: absolute;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    top: 110px;
+    background-color: #00ff0d;
+    transform: skewX(20deg);
+}
+
+/* Box 5 */
+.box5 {
+    position: absolute;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    top: 110px;
+    background-color: hsl(29, 100%, 50%);
+    transform: skewY(20deg);
+    transform: rotateX(50deg);
+}
+
+/* Box 6 */
+.box6 {
+    position: absolute;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    top: 110px;
+    background-color: hsl(167, 85%, 43%);
+    transform: skewY(18deg);
+    background-size: contain;
+}
